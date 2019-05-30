@@ -1,0 +1,12 @@
+.container-fluid img {
+  position: relative;
+  width: 100%
+
+}
+.header{
+  position: absolute;
+  top: 8px;
+  left: 40%;
+  color: white;
+  font-size: 40px;
+}
