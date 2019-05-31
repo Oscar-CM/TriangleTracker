@@ -5,6 +5,8 @@
     <title>Triangle tracker </title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+
   </head>
   <body>
     <div class="container-fluid">
@@ -14,7 +16,7 @@
           <p> Triangle Tracker </p>
       </div>
       <div class="form-group">
-        <form>
+        <form onsubmit="return results();" method="post">
           <table>
             <tr>
               <td class="name">First Side:</td>
@@ -22,16 +24,24 @@
             </tr>
             <tr>
               <td class="name">Second side:</td>
-              <td><input type="number" name="num2" /></td>
+              <td><input type="number" name="num2"/></td>
             </tr>
             <tr>
               <td class="name">Third Side:</td>
-              <td><input type="number" name="num3" /></td>
+              <td><input type="number" name="num3" id="num3" /></td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> <button type="button" onclick="results()" name="button">Submit</button> &nbsp &nbsp
+              <button type = "button" name="reset" value="reset" onclick="myFunction()">Reset</td>
             </tr>
           </table>
+          <span id = "output"> </span>
+
         </form>
       </div>
     </div>
+  </div>
 
 
   </body>
