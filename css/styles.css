@@ -10,18 +10,14 @@
   color: red;
   font-size: 40px;
 }
-.form-group {
+.form1{
   position: absolute;
   top: 40%;
   left: 30%;
   color: white;
   width: 500px;
-  clear: both;
+  
 }
-
-.form-group input {
-  width: 100%;
-  clear: both;
 }
 td {
   font-size: 20px;
