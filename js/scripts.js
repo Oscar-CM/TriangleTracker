@@ -18,7 +18,7 @@ function  results(){
       document.getElementById("output").innerHTML= " Equilateral Triangle";
     }
     else if(sides[0]===sides[1] || sides[0]===sides[2] || sides[1]===sides[2]){
-      document.getElementById("output").innerHTML="Iscosceles Triangle";
+      document.getElementById("output").innerHTML="Isosceles Triangle";
     }
     else if(sides[0]!==sides[1] && sides[0]!==sides[2] && sides[2]!==sides[1] && sides[0]+sides[1]>sides[2] && sides[1]+sides[2]>sides[0] && sides[2]+sides[0]>sides[1]){
       document.getElementById("output").innerHTML="scalene triangle";
