@@ -6,27 +6,41 @@
 .header{
   position: absolute;
   top: 8px;
-  left: 35%;
+  left: 40%;
   color: red;
   font-size: 40px;
 }
 .form1{
   position: absolute;
-  top: 40%;
-  left: 30%;
+  top: 20%;
+  left: 35%;
   color: white;
   width: 500px;
-  background-color: blue;
+  background-color: #17202A ;
+  height: 400px;
+  width: 400px;
   
 }
 table{
-
-  align-content: center;
+  position: absolute;
+  top: 30%;
+  border: 5px;
+  border-spacing: 7px;
+  
 }
-td {
+
+tr {
+  font-size: 20px;
+}
+input{
   font-size: 20px;
 }
 
 button{
-  background-color: blue;
+  background-color: green;
+  font-size: 20px;
+}
+span{
+  color: orange;
+  font-size: 20px;
 }
