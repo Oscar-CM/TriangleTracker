@@ -9,9 +9,9 @@ function  results(){
   
 
     if(sides[0] <=0 || sides[1] <=0 || sides[2] <=0){
-      document.getElementById("output").innerHTML="it is not a triangle";
+      document.getElementById("output").innerHTML="It is not a triangle";
     }
-    else if(sides[0]+sides[1]<sides[2] || sides[1]+sides[2]<sides[0] && sides[2]+sides[0]<sides[1]){
+    else if(sides[0]+sides[1]<sides[2] || sides[1]+sides[2]<sides[0] || sides[2]+sides[0]<sides[1]){
       document.getElementById("output").innerHTML="Does not make a triangle";
     }
     else if(sides[0]===sides[1] && sides[1]===sides[2] && sides[2]===sides[0]){ 
@@ -21,7 +21,7 @@ function  results(){
       document.getElementById("output").innerHTML="Isosceles Triangle";
     }
     else if(sides[0]!==sides[1] && sides[0]!==sides[2] && sides[2]!==sides[1] && sides[0]+sides[1]>sides[2] && sides[1]+sides[2]>sides[0] && sides[2]+sides[0]>sides[1]){
-      document.getElementById("output").innerHTML="scalene triangle";
+      document.getElementById("output").innerHTML="Scalene Triangle";
     }
    
     else {
