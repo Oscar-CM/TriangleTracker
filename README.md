@@ -8,6 +8,10 @@ This project will take three side of a triangle as inputs and determine whether 
 * use git clone to get the files git clone :https://github.com/Oscar-CM/TriangleTracker.git
 * Open the index.html file using any browser in the machine
 * Try out the program.
+|   |   |   
+|---|---|
+|   |   |   
+|   |   |   
 column1| column2
 ---|---
 Side A|_Enter the value_
