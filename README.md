@@ -8,7 +8,10 @@ This project will take three side of a triangle as inputs and determine whether 
 * use git clone to get the files git clone :https://github.com/Oscar-CM/TriangleTracker.git
 * Open the index.html file using any browser in the machine
 * Try out the program.
-
+---| ----
+Side A|---
+Side B| ---
+Side C| ---
 ## Known Bugs
 There are no known bugs in the program
 ## Technologies Used
