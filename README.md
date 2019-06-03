@@ -8,17 +8,17 @@ This project will take three side of a triangle as inputs and determine whether 
 * use git clone to get the files git clone :https://github.com/Oscar-CM/TriangleTracker.git
 * Open the index.html file using any browser in the machine
 * Try out the program.
-## Behavior Driven Development
+## Behaviour Driven Developement
 **Input example**
-| input | Description | Output |
-| ----- | ----------- | ------- |
-| 0, 4, 5  |  it does not form a triangle  |  Enter Valid values  |
-| 9, 9, 8  |  Forms isoceles Triangle  |  Isoceles Triangle  |
-| 9, 9, 9  |  Form equilateral triangle  |  Equilateral Triangle  |
-| 345, 5, 5  |  Does not form a triangle  |  Does not form a Triangle  |
+*Input 0, 7, 9*
+** The program should return The input is not valid**
+*It should know that if any side is a 0 it will not form  triagle*
+**Input example**
+*Input 8, 8. 8
+** The program returns It is an equilateral Triangle **
+* When all the sides are equak it forms an equlateral triangle*
 
 
-## Known Bugs
 There are no known bugs in the program
 ## Technologies Used
 HTML, CSS and Bootstrap
