@@ -9,7 +9,10 @@ This project will take three side of a triangle as inputs and determine whether 
 * Open the index.html file using any browser in the machine
 * Try out the program.
 ## Behaviour Driven Developement
-
+**Input example**
+Input 0
+** The program should return The input is not valid**
+*It should know that if any side is a 0 it cannot form a triangle*
 ## Known Bugs
 There are no known bugs in the program
 ## Technologies Used
