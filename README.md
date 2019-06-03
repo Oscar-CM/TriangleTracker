@@ -11,10 +11,11 @@ This project will take three side of a triangle as inputs and determine whether 
 ## Behaviour Driven Developement
 **Input example**
 | input | Description | Output |
-| ----- | ----------- | -------|
+| ----- | ----------- | ------- |
 | 0, 4, 5 | it does not form a triangle | Enter Valid values |
-| 9, 9, 8 | Forms isoceles Triangle | Isoceles TRiangle |
-| 9, 9, 9 | Form equilateral triangle | Equilateral Triangle | 
+| 9, 9, 8 | Forms isoceles Triangle | Isoceles Triangle |
+| 9, 9, 9 | Form equilateral triangle | Equilateral Triangle |
+| 345, 5, 5 | Does not form a triangle | Does not form a Triangle |
 
 
 ## Known Bugs
