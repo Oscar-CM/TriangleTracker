@@ -28,7 +28,7 @@ This project will take three side of a triangle as inputs and determine whether 
 **Input** 899, 8 ,5
 * The program returns It is Does not form a Triangle
 
-##Knownbugs
+## Known bugs
 There are no known bugs in the program
 ## Technologies Used
 HTML, CSS and Bootstrap
