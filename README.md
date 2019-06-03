@@ -10,13 +10,12 @@ This project will take three side of a triangle as inputs and determine whether 
 * Try out the program.
 ## Behaviour Driven Developement
 **Input example**
-*Input 0, 7, 9*
-** The program should return The input is not valid**
-*It should know that if any side is a 0 it will not form  triagle*
+**Input** 0, 7, 9
+* The program should return The input is not valid
+
 **Input example**
-*Input 8, 8. 8
-** The program returns It is an equilateral Triangle **
-* When all the sides are equak it forms an equlateral triangle*
+**Input** 8, 8. 8
+* The program returns It is an equilateral Triangle
 
 
 There are no known bugs in the program
