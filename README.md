@@ -8,14 +8,14 @@ This project will take three side of a triangle as inputs and determine whether 
 * use git clone to get the files git clone :https://github.com/Oscar-CM/TriangleTracker.git
 * Open the index.html file using any browser in the machine
 * Try out the program.
-## Behaviour Driven Developement
+## Behavior Driven Development
 **Input example**
 | input | Description | Output |
 | ----- | ----------- | ------- |
-| 0, 4, 5 | it does not form a triangle | Enter Valid values |
-| 9, 9, 8 | Forms isoceles Triangle | Isoceles Triangle |
-| 9, 9, 9 | Form equilateral triangle | Equilateral Triangle |
-| 345, 5, 5 | Does not form a triangle | Does not form a Triangle |
+| 0, 4, 5  |  it does not form a triangle  |  Enter Valid values  |
+| 9, 9, 8  |  Forms isoceles Triangle  |  Isoceles Triangle  |
+| 9, 9, 9  |  Form equilateral triangle  |  Equilateral Triangle  |
+| 345, 5, 5  |  Does not form a triangle  |  Does not form a Triangle  |
 
 
 ## Known Bugs
