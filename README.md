@@ -10,9 +10,13 @@ This project will take three side of a triangle as inputs and determine whether 
 * Try out the program.
 ## Behaviour Driven Developement
 **Input example**
-Input 0
-** The program should return The input is not valid**
-*It should know that if any side is a 0 it cannot form a triangle*
+| input | Description | Output |
+| ----- | ----------- | -------|
+| 0, 4, 5 | it does not form a triangle | Enter Valid values |
+| 9, 9, 8 | Forms isoceles Triangle | Isoceles TRiangle |
+| 9, 9, 9 | Form equilateral triangle | Equilateral Triangle | 
+
+
 ## Known Bugs
 There are no known bugs in the program
 ## Technologies Used
