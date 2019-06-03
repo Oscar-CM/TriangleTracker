@@ -17,7 +17,18 @@ This project will take three side of a triangle as inputs and determine whether 
 **Input** 8, 8. 8
 * The program returns It is an equilateral Triangle
 
+**Input example**
+**Input** 8, 8 ,5
+* The program returns It is an isoceles Triangle
 
+**Input example**
+**Input** 8, 8 ,5
+* The program returns It is an isoceles Triangle
+**Input example**
+**Input** 899, 8 ,5
+* The program returns It is Does not form a Triangle
+
+##Knownbugs
 There are no known bugs in the program
 ## Technologies Used
 HTML, CSS and Bootstrap
